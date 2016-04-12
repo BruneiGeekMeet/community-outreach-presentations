@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.test12.LogActivity" >
+
+    <TextView
+        android:id="@+id/nametext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="60dp"
+        android:text="Username:" />
+
+    
+    <TextView
+        android:id="@+id/passtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/nametext"
+        android:layout_below="@+id/nametext"
+        android:layout_marginTop="40dp"
+        android:text="Phone No:" />
+ 
+    
+   
+    
+   <EditText
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/passtext"
+                android:layout_alignParentRight="true"
+                android:ems="10" >
+
+                <requestFocus />
+            </EditText>
+    
+   			<EditText
+                android:id="@+id/password"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/passtext"
+                android:layout_alignBottom="@+id/passtext"
+                android:layout_alignParentRight="true"
+                android:ems="10"
+                android:inputType="text"/>
+   		
+   			
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/passtext"
+        android:layout_below="@+id/passtext"
+        android:layout_marginTop="64dp"
+        android:onClick="dataadd"
+        android:text="Create" />
+    
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/button1"
+        android:layout_marginLeft="57dp"
+        android:layout_toRightOf="@+id/button1"
+        android:onClick="closetheapp"
+        android:text="Close" />
+
+    <Button
+        android:id="@+id/button3"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button1"
+        android:layout_below="@+id/button1"
+        android:layout_marginTop="22dp"
+        android:onClick="showdata"
+        android:text="Show Table" />
+    
+    <Button
+        android:id="@+id/loginbtn"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button2"
+        android:layout_below="@+id/button2"
+        android:layout_marginTop="22dp"
+        android:onClick="login"
+        android:text="Login" />
+   
+
+</RelativeLayout>

@@ -1,0 +1,29 @@
+SLIDE 1
+SALAM and Good Afternoon ladies & gentleman, my name's redzwan, my team, here kong and marul are representing Laksamana College of Business and we have decided to tackle Brunei Darussalam Aids Council's volunteer management problems.
+
+SLIDE 2
+we were supposed to pick just one problem to tackle but in this case the two problems were closely related, so we decided to kill two birds with one stone. We decided to create a database which will be connected to a smartphone app for volunteers to use. 
+
+If you could please divert your attention to the screen and i will now ask marul, the designer of the app to show you the app.
+
+MARUL
+Volunteers will only need to do a one-time registration providing information such as their name, contact number, age, occupation, relevant skills that will be stored in the database. Once they have registered, the system will automatically generate a unique ID for each volunteer.
+
+MARUL
+SLIDE 4
+The main page of the app is a news feed of upcoming BDAC events. Volunteers will be alerted of new events through push notification, so they won't have to constantly check the app. Clicking on an event will bring them to an event page where they click a button to volunteer for the event. THANK YOU
+
+REDZWAN
+SLIDE 5
+The back end of the app is the database where the admin will be able to see a centralized record of registered volunteers. They can also see from here a list of volunteers who have indicated that they are available for an event. They can also filter volunteers by occupation, such as teachers, or skills, such as first aid skills, to select the best candidates for an event.  
+
+SLIDE 6
+Value proposition: Better communication leading to smoother running of education campaigns due to the implementation of a centralized database.
+
+This solution is cost-effective (free actually) as there is no added machinery to buy and there is no charge fee. We understand that the target market volunteers are not tech savvy so we're making this app as simple to use as possible.
+
+SLIDE 7
+For the future phase, we will be finalizing the prototype and implementing the database. testing and retesting and finally launching the app. 
+
+SLIDE 8
+Here are our relevant details. Thank you for your time. Assalamualikum

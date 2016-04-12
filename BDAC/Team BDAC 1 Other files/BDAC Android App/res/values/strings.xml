@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BDAC</string>
+    <string name="pvptxt">Events</string>
+    <string name="action_settings">Settings</string>
+    <string name="avptxt">Volunteer</string>
+    <string name="aboutmetxt">About</string>
+    <string name="exittxt">Exit</string>
+    <string name="mainheader">LCB</string>
+
+    
+    <string name="about"> 
+      <b>Name:  LCB TEAM
+      <b>Topic Choose: BDAC</b></b>
+	</string>
+	<string name="aboutheader">About the BDAC</string>
+    <string name="infos">What is the BDAC about?
+        <b>
+            A Non-Profit Organisation where our main objective is to raise awareness on HIV and AIDS in Brunei Darussalam. We aim to educate the public on related issues, the likes of Sexually Transmitted Infection, Teenage Pregnancy and Social Issues.
+
+The Council uses multiple approaches in reaching its objectives; youth work and trainings, youth and community participation, outreach programmes, voluntary work, media coverage, collaboration with other agencies etc.
+            </b></string>
+</resources>
